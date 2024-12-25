@@ -34,56 +34,61 @@
   //headerCenter : true,
   
   // 如果不需要头像，则将下面三行的参数注释或删除
-  photograph: "profile.jpg",
-  photographWidth: 10em,
-  gutterWidth: 2em,
+  photograph: "liyanbo.jpg",
+  photographWidth: 6em,
+  gutterWidth: 1em,
 )[
 
-= 方橙
+= 李彦博
 
 #info(
   color: themeColor,
   (
     // 其实 icon 也可以直接填字符串, 如 "fa-phone.svg" 
     icon: faPhone,
-    content: "(+86) 155-5555-5555"
+    content: "(+86) 185-8577-5502"
   ),
   (
     icon: faBuildingColumns,
-    content: "南京大学",
+    content: "南方科技大学",
   ),
   (
     icon: faGraduationCap,
-    content: "人工智能",
+    content: "电子科学与技术",
   ),
   (
     icon: faEnvelope,
-    content: "orangex4@qq.com",
+    content: "197422352@qq.com",
     link: "mailto:orangex4@qq.com"
   ),
   (
     icon: faGithub,
-    content: "github.com/orangex4",
-    link: "https://github.com/orangex4",
+    content: "liyanboSustech",
+    link: "https://github.com/liyanboSustech",
   ),
 )
 ][
-#h(2em)  // 手动顶行, 2em 代表两个字的宽度
+// #h(2em)  // 手动顶行, 2em 代表两个字的宽度
 
-我是 OrangeX4，你也可以叫我 *一只方橙* 或 *方橙*。现在是南京大学人工智能学院 2020 级本科生，正深陷于学习数学、编程和英语的无边苦海中。你问为什么我的名字那么奇怪？ 大概是我喜欢吃橘子和橙子，又谐音方程，还有和我的名字谐音的缘故吧。喜欢一切新奇的东西，兴趣十分广泛。
+
 ]
 
 
 == #faGraduationCap 教育背景
 
-#sidebar(withLine: true, sideWidth: 12%)[
-  2023.05
+#sidebar(withLine: false, sideWidth: 15%)[
+
+2022.09 - 至今
+
+2018.09 - 2022.07
   
-  2020.09
+  
 ][
-  *南京大学* · 人工智能学院 · 人工智能专业
+*南方科技大学* · 电子科学与技术   硕士    
+
+*哈尔滨工业大学* · 机械工程   本科    
   
-  GPA: 4.48 / 5 · Rank: 15%
+  
 ]
 
 
@@ -110,17 +115,16 @@
 
 == #faAward 获奖情况
 
-#item(
-  [ *人民奖学金* ],
-  [ *一等奖 · 二等奖* ],
-  date[ 2021 年 11 月 – 2022 年 11 月 ]
-)
+// #item(
+//   [ *人民奖学金* ],1,
+//   date[ 2021 年 11 月 – 2022 年 11 月 ]
+// )
 
-#item(
-  [ *人工智能 +* ],
-  [ *二等奖* ],
-  date[ 2021 年 11 月 – 2022 年 11 月 ]
-)
+// #item(
+//   [ *人工智能 +* ],
+//   [ *二等奖* ],
+//   date[ 2021 年 11 月 – 2022 年 11 月 ]
+// )
 
 // == #faWork 实习经历
 
@@ -130,13 +134,11 @@
 
 #item(
   link(
-    "https://github.com/OrangeX4/Latex-Sympy-Calculator",
-    [ *Latex Sympy Calculator* ]
-  ),
-  [ *个人项目* ],
-  date[ 2021 年 02 月 – 2021 年 04 月 ]
+    "https://doi.org/10.1109/ICPADS60453.2023.00350",
+    [ *FLASH: Low-Latency Serverless Model Inference With Multi-Core Parallelism in Edge* ]
+  )
 )
-
+#date[ 2023 年 02 月 – 2021 年 04 月 ]
 #tech[ NodeJS, Python, VS Code ]
 
 一个用于在 VS Code 中使用 LaTeX 数学公式进行「科学计算」的插件
@@ -150,8 +152,9 @@
     "https://github.com/OrangeX4/Reversi",
     [ *黑白棋 Reversi* ]
   ),
-  [ *课程项目* ],
-  date[ 2021 年 02 月 – 2021 年 04 月 ]
+  // 
+  // [ *课程项目* ],
+  // date[ 2021 年 02 月 – 2021 年 04 月 ]
 )
 
 #tech[ React, Python, AI ]
@@ -168,6 +171,6 @@
 
 #item(
   [ *微软学生俱乐部技术部部长* ],
-  [],
-  date[ 2021 年 09 月 – 2022 年 09 月 ]
+  // [],
+  // date[ 2021 年 09 月 – 2022 年 09 月 ]
 )

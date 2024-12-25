@@ -152,8 +152,8 @@
 
 // 日期： 颜色变灰
 #let date(body) = text(
-  fill: rgb(128, 128, 128),
-  size: 0.9em,
+  fill: rgb(0, 0, 0),
+  size: 1.0em,
   body
 )
 
@@ -167,13 +167,14 @@
 // 项目
 #let item(
   title,
-  desc,
-  endnote
+  // desc,
+  // endnote
 ) = {
   v(0.25em)
   grid(
-    columns: (30%, 1fr, auto),
+    columns: (80%),
     gutter: (0em),
-    title, desc, endnote
+    title
+    // , desc, endnote
   )
 }
