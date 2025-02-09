@@ -87,34 +87,7 @@
 
 *哈尔滨工业大学* · 机械工程   本科    
   
-  
 ]
-
-
-== #faWrench 专业技能
-
-#sidebar(withLine: false, sideWidth: 12%)[
-  *操作系统*
-  
-  *掌握*
-  
-  *熟悉*
-
-  *了解*
-][
-  #faLinux Linux, #h(0.5em) #faWindows Windows
-  
-  React, JavaScript, Python
-  
-  Vue, TypeScript, Node.js
-
-  Webpack, Java
-]
-
-
-
-
-// #item(
 //   [ *人民奖学金* ],1,
 //   date[ 2021 年 11 月 – 2022 年 11 月 ]
 // )
@@ -135,7 +108,7 @@
   link(
     "https://doi.org/10.1109/ICPADS60453.2023.00350",
     [ *FLASH: Low-Latency Serverless Model Inference With Multi-Core Parallelism in Edge* ]
-  ),"ICPADS","2023.11"
+  )," ICPADS"," 2023.11"
 )
 *Yanbo Li*, Yanying Lin, Shijie Peng, Yingfei Tang, Kejiang Ye
 - 解决了边缘计算环境中资源受限情况下深度学习模型推理延迟高的问题
@@ -145,22 +118,49 @@
   link(
     "https://doi.org/10.1109/ICDCS60910.2024.00010",
     [ *QUART: Model Serving System with Resource Fine-Tune in Pipeline Stages* ]
-  ),"ICDCS","2024.06"
+  )," ICDCS"," 2024.06"
 )
 Yanying Lin, *Yanbo Li*, Shijie Peng, Yingfei Tang, Shutian Luo, Haiying Shen, Chengzhong Xu, Kejiang Ye
 - 解决了边缘计算环境中资源受限情况下深度学习模型推理延迟高的问题
 - 利用CPU多核并行性、动态调整 CPU 核心数量,优化了资源调度算法，从而实现更强大的弹性计算。
 - 在不同流量负载下，平均可以将响应延迟降低 33%，最高降低 75%，同时将吞吐量提高 2.94 倍。
+#conference(
+  link(
+    "https://doi.org/10.1109/ICDCS60910.2024.00010",
+    [ *Planck: Optimizing LLM Inference Performance in Pipeline Parallelism with Fine-Grained SLO Constraint* ]
+  )," ICWS"," 2024.07"
+)
+Yanying Lin, Shijie Peng, Shuaipeng Wu, *Yanbo Li* , Chengzhi Lu, Chengzhong Xu, Kejiang Ye
 === 专利
-#patent([ *一种基于CPU多核并行边缘深度模型的推理加速方法及系统* ],"CN202311776975.9",
-"发明专利"
+#patent([ *一种基于CPU多核并行边缘深度模型的推理加速方法及系统* ]," CN202311776975.9",
+" 发明专利"
 )
-#patent([ *模型驱动的云边端互联集成方法、装置、设备及介质* ],"CN202411756916.X",
-"发明专利"
+#patent([ *模型驱动的云边端互联集成方法、装置、设备及介质* ]," CN202411756916.X",
+" 发明专利"
 )
-#patent([ *一种标准化云边端互联系统* ],"CN202411485258.5",
-"发明专利"
+#patent([ *一种标准化云边端互联系统* ]," CN202411485258.5",
+" 发明专利"
 )
+== #faWrench 专业技能
+
+#sidebar(withLine: false, sideWidth: 12%)[
+  *操作系统*
+  
+  *掌握*
+  
+  *熟悉*
+
+  *了解*
+][
+  #faLinux Linux, #h(0.5em) #faWindows Windows
+  
+  React, JavaScript, Python
+  
+  Vue, TypeScript, Node.js
+
+  Webpack, Java
+]
+
 == #faBuildingColumns 校园经历
 == #faAward 获奖情况
 == #faInterest 兴趣爱好

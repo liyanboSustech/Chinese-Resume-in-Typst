@@ -178,30 +178,42 @@
     // , desc, endnote
   )
 }
+// #let conference(title, conferencename, date) = {
+//   v(0.25em)
+//   grid(
+//     columns: (1fr, auto, auto),
+//     gutter: (1em, 1em),
+//     align: (left, left, right),
+//     [
+//       #title
+//       #strong(conferencename)
+//       #strong(date) // 右对齐日期
+//     ]
+//   )
+// }
+
 #let conference(title, conferencename, date) = {
-  v(0.25em)
+  // v(0.25em)
   grid(
-    columns: (1fr, auto, auto),
+    columns: (1fr, auto), // 只使用两列
     gutter: (1em, 1em),
-    align: (left, left, right),
+    align: (left, right), // 第二列整体右对齐
     [
       #title
-      #strong(conferencename)
-      #strong(date) // 右对齐日期
+      #strong(conferencename) #strong(date) // 让会议名称和日期合并到同一列
     ]
   )
 }
- 
 #let patent(title, application_number, type) = {
-  v(0.25em)
+  // v(0.25em)
   grid(
     columns: (1fr, auto,auto),
-    gutter: (2em, 2em),
+    gutter: (5em, 1mm), 
     align: (left, left,right),
     [
       #title
       #application_number
-      #strong(type) // 右对齐专利类型
+      #strong(type) 
       
     ]
   )
