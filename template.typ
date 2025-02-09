@@ -164,9 +164,9 @@
   body
 })
 
-// 项目
+项目
 #let item(
-  title,
+  title
   // desc,
   // endnote
 ) = {
@@ -178,3 +178,34 @@
     // , desc, endnote
   )
 }
+#let conference(title, conferencename, date) = {
+  v(0.25em)
+  grid(
+    columns: (1fr, auto, auto),
+    gutter: (1em, 1em),
+    align: (left, left, right),
+    [
+      #title
+      #strong(conferencename)
+      #strong(date) // 右对齐日期
+    ]
+  )
+}
+ 
+#let patent(title, application_number, type) = {
+  v(0.25em)
+  grid(
+    columns: (1fr, auto,auto),
+    gutter: (2em, 2em),
+    align: (left, left,right),
+    [
+      #title
+      #application_number
+      #strong(type) // 右对齐专利类型
+      
+    ]
+  )
+}
+
+}
+

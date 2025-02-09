@@ -14,7 +14,7 @@
 #let faWindows = icon("icons/fa-windows.svg")
 #let faWrench = icon("icons/fa-wrench.svg")
 #let faWork = icon("icons/fa-work.svg")
-
+#let faInterest = icon("icons/fa-interest.svg")
 // 主题颜色
 #let themeColor = rgb(38, 38, 125)
 
@@ -58,25 +58,24 @@
   ),
   (
     icon: faEnvelope,
-    content: "197422352@qq.com",
-    link: "mailto:orangex4@qq.com"
+    content: "yb1.li@siat.ac.cn"
   ),
-  (
-    icon: faGithub,
-    content: "liyanboSustech",
-    link: "https://github.com/liyanboSustech",
-  ),
+  // (
+  //   icon: faGithub,
+  //   content: "liyanboSustech",
+  //   link: "https://github.com/liyanboSustech",
+  // ),
 )
 ][
 // #h(2em)  // 手动顶行, 2em 代表两个字的宽度
-
+我是李彦博，目前就读于南方科技大学电子科学与技术专业，师从叶可江研究员，研究方向为大语言模型推理优化、分布式系统和边缘计算。
 
 ]
 
 
 == #faGraduationCap 教育背景
 
-#sidebar(withLine: false, sideWidth: 15%)[
+#sidebar(withLine: true, sideWidth: 15%)[
 
 2022.09 - 至今
 
@@ -113,7 +112,7 @@
 ]
 
 
-== #faAward 获奖情况
+
 
 // #item(
 //   [ *人民奖学金* ],1,
@@ -130,47 +129,38 @@
 
 // 在这里添加你的实习经历
 
-== #faCode 项目经历
-
-#item(
+== #faCode 研究成果
+=== 论文
+#conference(
   link(
     "https://doi.org/10.1109/ICPADS60453.2023.00350",
     [ *FLASH: Low-Latency Serverless Model Inference With Multi-Core Parallelism in Edge* ]
-  )
+  ),"ICPADS","2023.11"
 )
-#date[ 2023 年 02 月 – 2021 年 04 月 ]
-#tech[ NodeJS, Python, VS Code ]
-
-一个用于在 VS Code 中使用 LaTeX 数学公式进行「科学计算」的插件
-
-- 使用 ANTLR 将 LaTeX 语句编译为 Sympy 语句
-- 通过 Flask 搭建本地 HTTP 服务器与 VS Code 插件进行通信
-- 可以进行多种类型的科学计算，如积分求导、矩阵计算、无穷级数计算等
-
-#item(
+*Yanbo Li*, Yanying Lin, Shijie Peng, Yingfei Tang, Kejiang Ye
+- 解决了边缘计算环境中资源受限情况下深度学习模型推理延迟高的问题
+- 利用CPU多核并行性、动态调整 CPU 核心数量,优化了资源调度算法，从而实现更强大的弹性计算。
+- 在不同流量负载下，平均可以将响应延迟降低 33%，最高降低 75%，同时将吞吐量提高 2.94 倍。
+#conference(
   link(
-    "https://github.com/OrangeX4/Reversi",
-    [ *黑白棋 Reversi* ]
-  ),
-  // 
-  // [ *课程项目* ],
-  // date[ 2021 年 02 月 – 2021 年 04 月 ]
+    "https://doi.org/10.1109/ICDCS60910.2024.00010",
+    [ *QUART: Model Serving System with Resource Fine-Tune in Pipeline Stages* ]
+  ),"ICDCS","2024.06"
 )
-
-#tech[ React, Python, AI ]
-
-基于 React 与 Antd 的黑白棋前端，与基于 Python 的黑白棋 AI 后端
-
-- 使用基于评估函数的 BFS 实现了黑白棋 AI，并实现了 Alpha-Beta 剪枝
-- 基于 React 搭建了一个黑白棋平台前端，支持玩家对战、人机对战和 AI 对战
-- 在后端使用 Flask 及 Socket.io 库，实现了玩家之间的联机对战
-
-
+Yanying Lin, *Yanbo Li*, Shijie Peng, Yingfei Tang, Shutian Luo, Haiying Shen, Chengzhong Xu, Kejiang Ye
+- 解决了边缘计算环境中资源受限情况下深度学习模型推理延迟高的问题
+- 利用CPU多核并行性、动态调整 CPU 核心数量,优化了资源调度算法，从而实现更强大的弹性计算。
+- 在不同流量负载下，平均可以将响应延迟降低 33%，最高降低 75%，同时将吞吐量提高 2.94 倍。
+=== 专利
+#patent([ *一种基于CPU多核并行边缘深度模型的推理加速方法及系统* ],"CN202311776975.9",
+"发明专利"
+)
+#patent([ *模型驱动的云边端互联集成方法、装置、设备及介质* ],"CN202411756916.X",
+"发明专利"
+)
+#patent([ *一种标准化云边端互联系统* ],"CN202411485258.5",
+"发明专利"
+)
 == #faBuildingColumns 校园经历
-
-
-#item(
-  [ *微软学生俱乐部技术部部长* ],
-  // [],
-  // date[ 2021 年 09 月 – 2022 年 09 月 ]
-)
+== #faAward 获奖情况
+== #faInterest 兴趣爱好
