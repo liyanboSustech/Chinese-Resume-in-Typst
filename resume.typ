@@ -44,11 +44,6 @@
 #info(
   color: themeColor,
   (
-    // 其实 icon 也可以直接填字符串, 如 "fa-phone.svg" 
-    icon: faPhone,
-    content: "(+86) 185-8577-5502"
-  ),
-  (
     icon: faBuildingColumns,
     content: "南方科技大学",
   ),
@@ -60,6 +55,11 @@
     icon: faEnvelope,
     content: "yb1.li@siat.ac.cn"
   ),
+  (
+    // 其实 icon 也可以直接填字符串, 如 "fa-phone.svg" 
+    icon: faPhone,
+    content: "(+86) 185-8577-5502"
+  ),
   // (
   //   icon: faGithub,
   //   content: "liyanboSustech",
@@ -67,7 +67,6 @@
   // ),
 )
 ][
-// #h(2em)  // 手动顶行, 2em 代表两个字的宽度
 我是李彦博，目前就读于南方科技大学电子科学与技术专业，师从叶可江研究员，研究方向为大语言模型推理优化、分布式系统和边缘计算。
 
 ]
@@ -121,7 +120,7 @@
   )," ICDCS"," 2024.06"
 )
 Yanying Lin, *Yanbo Li*, Shijie Peng, Yingfei Tang, Shutian Luo, Haiying Shen, Chengzhong Xu, Kejiang Ye
-- 解决了边缘计算环境中资源受限情况下深度学习模型推理延迟高的问题
+- 解决了大语言模型过程中，由于请求突发导致的问题
 - 利用CPU多核并行性、动态调整 CPU 核心数量,优化了资源调度算法，从而实现更强大的弹性计算。
 - 在不同流量负载下，平均可以将响应延迟降低 33%，最高降低 75%，同时将吞吐量提高 2.94 倍。
 #conference(
@@ -139,6 +138,9 @@ Yanying Lin, Shijie Peng, Shuaipeng Wu, *Yanbo Li* , Chengzhi Lu, Chengzhong Xu,
 " 发明专利"
 )
 #patent([ *一种标准化云边端互联系统* ]," CN202411485258.5",
+" 发明专利"
+)
+#patent([ *一种工业互联网计算干扰避免方法、存储介质和处理器* ]," CN202311744709.8",
 " 发明专利"
 )
 == #faWrench 专业技能
