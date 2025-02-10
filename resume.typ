@@ -67,7 +67,7 @@
   // ),
 )
 ][
-我是李彦博，目前就读于南方科技大学电子科学与技术专业，师从叶可江研究员，研究方向为大语言模型推理优化、分布式系统和边缘计算。
+我是李彦博，目前就读于南方科技大学电子科学与技术专业，师从叶可江研究员。目前研究方向为大语言模型推理优化、分布式系统和边缘计算。
 
 ]
 
@@ -120,16 +120,16 @@
   )," ICDCS"," 2024.06"
 )
 Yanying Lin, *Yanbo Li*, Shijie Peng, Yingfei Tang, Shutian Luo, Haiying Shen, Chengzhong Xu, Kejiang Ye
-- 解决了大语言模型过程中，由于请求突发导致的问题
-- 利用CPU多核并行性、动态调整 CPU 核心数量,优化了资源调度算法，从而实现更强大的弹性计算。
-- 在不同流量负载下，平均可以将响应延迟降低 33%，最高降低 75%，同时将吞吐量提高 2.94 倍。
-#conference(
-  link(
-    "https://doi.org/10.1109/ICDCS60910.2024.00010",
-    [ *Planck: Optimizing LLM Inference Performance in Pipeline Parallelism with Fine-Grained SLO Constraint* ]
-  )," ICWS"," 2024.07"
-)
-Yanying Lin, Shijie Peng, Shuaipeng Wu, *Yanbo Li* , Chengzhi Lu, Chengzhong Xu, Kejiang Ye
+- 解决了大语言模型推理过程中，由于请求突发导致的队列堵塞,以及传统扩缩容方法导致的资源利用率低下的问题
+- 通过流水线拥塞检测和在线扩展机制、基于 CV 传播管理资源、利用 CPU 并行减轻通信和控制流开销应对请求波动。
+- 平均响应延迟最多降低 87.1%，goodput最多提高 2.37倍，在复杂负载下表现更优。
+// #conference(
+//   link(
+//     "https://doi.org/10.1109/ICDCS60910.2024.00010",
+//     [ *Planck: Optimizing LLM Inference Performance in Pipeline Parallelism with Fine-Grained SLO Constraint* ]
+//   )," ICWS"," 2024.07"
+// )
+// Yanying Lin, Shijie Peng, Shuaipeng Wu, *Yanbo Li* , Chengzhi Lu, Chengzhong Xu, Kejiang Ye
 === 专利
 #patent([ *一种基于CPU多核并行边缘深度模型的推理加速方法及系统* ]," CN202311776975.9",
 " 发明专利"
@@ -166,3 +166,4 @@ Yanying Lin, Shijie Peng, Shuaipeng Wu, *Yanbo Li* , Chengzhi Lu, Chengzhong Xu,
 == #faBuildingColumns 校园经历
 == #faAward 获奖情况
 == #faInterest 兴趣爱好
+我平时非常喜欢运动，尤其是球类运动，其中最喜欢的是篮球。无论是和朋友一起打比赛，还是自己练习投篮，都让我感受到运动的乐趣和挑战。此外，我也喜欢跑步，不管是晨跑还是长跑，都能让我放松身心，享受运动带来的成就感。
