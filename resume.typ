@@ -25,17 +25,17 @@
   // 标题颜色
   themeColor: themeColor,
   // 控制纸张的边距
-  top: 1.5cm,
-  bottom: 2cm,
-  left: 2cm,
-  right: 2cm,
+  top: 1cm,
+  bottom: 1.5cm,
+  left: 1cm,
+  right: 1cm,
 
   // 如果需要姓名及联系信息居中，请删除下面关于头像的三行参数，并取消headerCenter的注释
   //headerCenter : true,
   
   // 如果不需要头像，则将下面三行的参数注释或删除
   photograph: "liyanbo.jpg",
-  photographWidth: 6em,
+  photographWidth: 5em,
   gutterWidth: 1em,
 )[
 
@@ -67,11 +67,7 @@
   // ),
 )
 ][
-我是李彦博，目前就读于南方科技大学电子科学与技术专业，师从叶可江研究员。目前研究方向为大语言模型推理优化、分布式系统和边缘计算。
-
-]
-
-
+我是李彦博，目前就读于南方科技大学电子科学与技术专业，师从叶可江研究员。目前研究方向为大语言模型推理优化、分布式系统和边缘计算。]
 == #faGraduationCap 教育背景
 
 #sidebar(withLine: true, sideWidth: 15%)[
@@ -82,7 +78,7 @@
   
   
 ][
-*南方科技大学* · 电子科学与技术   硕士    
+*南方科技大学* · 电子科学与技术   硕士  
 
 *哈尔滨工业大学* · 机械工程   本科    
   
@@ -120,8 +116,8 @@
   )," ICDCS"," 2024.06"
 )
 Yanying Lin, *Yanbo Li*, Shijie Peng, Yingfei Tang, Shutian Luo, Haiying Shen, Chengzhong Xu, Kejiang Ye
-- 解决了大语言模型推理过程中，由于请求突发导致的队列堵塞,以及传统扩缩容方法导致的资源利用率低下的问题
-- 通过流水线拥塞检测和在线扩展机制、基于 CV 传播管理资源、利用 CPU 并行减轻通信和控制流开销应对请求波动。
+- 解决了大语言模型推理过程中，由于请求突发的队列堵塞,以及传统扩缩容方法导致资源利用率低下的问题
+- 通过流水线拥塞检测与在线扩缩容机制、利用 CV 传播管理资源、CPU 并行减轻通信和控制流开销应对请求波动。
 - 平均响应延迟最多降低 87.1%，goodput最多提高 2.37倍，在复杂负载下表现更优。
 // #conference(
 //   link(
@@ -145,25 +141,36 @@ Yanying Lin, *Yanbo Li*, Shijie Peng, Yingfei Tang, Shutian Luo, Haiying Shen, C
 )
 == #faWrench 专业技能
 
-#sidebar(withLine: false, sideWidth: 12%)[
-  *操作系统*
+#sidebar(withLine: false, sideWidth:5%)[
   
   *掌握*
   
   *熟悉*
 
   *了解*
-][
-  #faLinux Linux, #h(0.5em) #faWindows Windows
-  
-  React, JavaScript, Python
-  
-  Vue, TypeScript, Node.js
 
-  Webpack, Java
+  
+][
+  
+  Python, Kubernetes, Prometheus, Granfana, CET6 569分
+  
+  Transformer, MOE, vLLM 
+
+  TensorRT-LLM, 并行计算, 网络通信, Deepspeed/Ray等分布式系统架构
+
+  
 ]
 
-== #faBuildingColumns 校园经历
 == #faAward 获奖情况
+
+   中国科学院深圳先进技术研究院数字所优秀研究生 2023
+  
+   中国科学院深圳先进技术研究院云计算研究中心十佳研究生 2023
+  
+   中国科学院深圳先进技术研究院篮球比赛 季军 2024
+
+
+
 == #faInterest 兴趣爱好
-我平时非常喜欢运动，尤其是球类运动，其中最喜欢的是篮球。无论是和朋友一起打比赛，还是自己练习投篮，都让我感受到运动的乐趣和挑战。此外，我也喜欢跑步，不管是晨跑还是长跑，都能让我放松身心，享受运动带来的成就感。
+我平时非常喜欢运动，尤其是球类运动，其中最喜欢的有篮球和乒乓球。无论是和朋友一起打比赛，还是自己练习投篮，都让我感受到运动的乐趣和挑战。此外，我喜欢跑步和听音乐，跑步让我在思考问题时更加清晰，有时还能激发新的灵感；听音乐则能缓解压力，提高长时间工作的耐力，从而更好地投入科研工作。
+
